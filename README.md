@@ -6,7 +6,7 @@
 
 * >> Here<a href=https://ckeditor.com/cke4/builder/download/85e2cfe7d2261e150e06ec1a20267d6e target=_blank> always the newest version</a>.
 
-* Versions for Typesetter 5.1.1 are at <a href=http://typesetter5.bplaced.net/Ckeditor target=_blank> Bplaced</a>.
+* Versions also for Typesetter 5.1.1 are at <a href=http://typesetter5.bplaced.net/Ckeditor target=_blank> Bplaced</a>.
 
 Ckeditor.com offers several skins for ckeditor. 
 
