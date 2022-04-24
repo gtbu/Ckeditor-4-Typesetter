@@ -12,3 +12,5 @@ Ckeditor.com offers several skins for ckeditor.
 
 For Typesetter exists a <a href=https://github.com/gtbu/CKE_Themes >
 skinswitcher-plugin </a> for installation under /addons.
+
+* Further plugins for manual installation in the CMS are at github (sestolab and akilli and others) and at pluginza.com (always watch dependencies! - some are old and incompatiuble)
