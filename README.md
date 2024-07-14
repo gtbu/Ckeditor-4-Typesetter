@@ -14,3 +14,5 @@ For Typesetter exists a <a href=https://github.com/gtbu/CKE_Themes >
 skinswitcher-plugin </a> for installation under /addons.
 
 * Further plugins for manual installation in the CMS are at github (sestolab and akilli and others) and at pluginza.com (always watch dependencies! - some are old and incompatiuble)
+
+*** Many users will now get a popup that version 4.21 is not quite safe and should be replaced with version 2.24 LTS . The LTS - version is incompatible with Typesetter CMS - i hope i will find a solution.
