@@ -17,3 +17,5 @@ skinswitcher-plugin </a> for installation under /addons.
 
 *** Many users will now get a popup that version 4.21 is not quite safe and should be replaced with version 4.24 LTS .
 The LTS - version is incompatible with Typesetter CMS - i hope i will find a solution.
+
+*** A momentary tip from  https://github.com/ckeditor/ckeditor4/issues/5519  :  Add in include/tool/Editing.php at line 640  :  'versionCheck'   => false,
