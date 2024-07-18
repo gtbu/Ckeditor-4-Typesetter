@@ -16,6 +16,6 @@ skinswitcher-plugin </a> for installation under /addons.
 * Further plugins for manual installation in the CMS are at github (sestolab and akilli and others) and at pluginza.com (always watch dependencies! - some are old and incompatiuble)
 
 *** Many users will now get a popup that version 4.21 is not quite safe and should be replaced with version 4.24 LTS .
-The LTS - version is incompatible with Typesetter CMS - i hope i will find a solution.
-
+The LTS - version needs a commercial license !
 *** A momentary tip from  https://github.com/ckeditor/ckeditor4/issues/5519  :  Add in include/tool/Editing.php at line 640  :  'versionCheck'   => false,
+*** At this line You can also enter Your license key  :    licenseKey: 'your-license-key', 
