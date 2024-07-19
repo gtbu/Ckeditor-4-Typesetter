@@ -37,3 +37,8 @@ Here are the steps: (Add in include/tool/Editing.php ~ at line 640 : )
    CKEDITOR.config.versionCheck = false;   //       This will prevent the warning about the version being insecure.
 
 By following these steps, you should be able to configure CKEditor to allow the <i> tag .
+
+P.S.                 'versionCheck'              => false,
+							'allowedContent'            => true,
+							'extraAllowedContent'		=> 'i[*],iframe[align,......
+       
