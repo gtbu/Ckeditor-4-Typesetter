@@ -21,7 +21,7 @@ The LTS - version needs a commercial license !
 *** At this line You can also enter Your license key  :    licenseKey: 'your-license-key', 
 
 ----------------------------------------------------------------------------------------------------
-Ckeditor has a problem with bootstrap5-icons : <i...></i> which are removed automatic.
+Ckeditor has a problem with bootstrap5-icons : < i... > < /i > which are removed automatic.
 
 To configure CKEditor to allow the <i> tag with the bi bi-heart class, you can use the Advanced Content Filter (ACF) settings. Here are the steps:
 1. Disable ACF:         Add the following line to your CKEditor configuration file:
