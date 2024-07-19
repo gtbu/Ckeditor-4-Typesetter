@@ -23,7 +23,10 @@ The LTS - version needs a commercial license !
 ----------------------------------------------------------------------------------------------------
 Ckeditor has a problem with bootstrap5-icons : < i... > < /i > which are removed automatic.
 
-To configure CKEditor to allow the <i> tag with the bi bi-heart class, you can use the Advanced Content Filter (ACF) settings. Here are the steps:
+To configure CKEditor to allow the <i> tag with the bi bi-heart class, you can use the Advanced Content Filter (ACF) settings. 
+
+Here are the steps: (Add in include/tool/Editing.php ~ at line 640 : )
+
 1. Disable ACF:         Add the following line to your CKEditor configuration file:
    CKEDITOR.config.allowedContent = true;    //    This will disable the ACF and allow all HTML elements and attributes.
 
