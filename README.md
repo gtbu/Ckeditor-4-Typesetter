@@ -19,3 +19,18 @@ skinswitcher-plugin </a> for installation under /addons.
 The LTS - version needs a commercial license !
 *** A momentary tip from  https://github.com/ckeditor/ckeditor4/issues/5519  :  Add in include/tool/Editing.php at line 640  :  'versionCheck'   => false,
 *** At this line You can also enter Your license key  :    licenseKey: 'your-license-key', 
+
+----------------------------------------------------------------------------------------------------
+Ckeditor has a problem with bootstrap5-icons : <i...></i> which are removed automatic.
+
+To configure CKEditor to allow the <i> tag with the bi bi-heart class, you can use the Advanced Content Filter (ACF) settings. Here are the steps:
+1. Disable ACF:         Add the following line to your CKEditor configuration file:
+   CKEDITOR.config.allowedContent = true;    //    This will disable the ACF and allow all HTML elements and attributes.
+
+2. Customize ACF:   If you want to allow specific tags and attributes, you can configure the allowedContent option. For example:
+   CKEDITOR.config.allowedContent = 'i[*];';         //     This will allow the <i> tag with any attributes.
+
+3. Version Check: If you are encountering version-related security warnings, you can disable version checking by adding the following line to your configuration file:
+   CKEDITOR.config.versionCheck = false;   //       This will prevent the warning about the version being insecure.
+
+By following these steps, you should be able to configure CKEditor to allow the <i> tag .
