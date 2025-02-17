@@ -6,11 +6,12 @@
 
 * >> Here<a href=https://ckeditor.com/cke4/builder/download/85e2cfe7d2261e150e06ec1a20267d6e target=_blank> always the newest version</a>.
 
-* Versions also for Typesetter 5.1.1 are at <a href=http://typesetter5.bplaced.net/Ckeditor target=_blank> Bplaced</a>.
+* Older Versions - also for Typesetter 5.1.1 - are at <a href=http://typesetter5.bplaced.net/Ckeditor target=_blank> Bplaced</a>.
 
-Ckeditor.com offers several skins for ckeditor. 
+Ckeditor.com offers several skins for ckeditor. <hr>
+2/2025 : Ckeditor4 has now several skins for choice : The skin can be changed with an entry in the <a href="https://github.com/gtbu/Typesetter-5.3-p8/blob/main/include/thirdparty/ckeditor/config.js">config.js</a> : config.skin =
 
-For Typesetter exists a <a href=https://github.com/gtbu/CKE_Themes >
+For Typesetter exists also a <a href=https://github.com/gtbu/CKE_Themes >
 skinswitcher-plugin </a> for installation under /addons.
 
 * Further plugins for manual installation in the CMS are at github (sestolab and akilli and others) and at pluginza.com (always watch dependencies! - some are old and incompatiuble)
