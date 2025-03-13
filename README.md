@@ -11,7 +11,9 @@
 Ckeditor.com offers several skins for ckeditor. <hr>
 2/2025 : Ckeditor4 has now several skins for choice : The skin can be changed with an entry in the <a href="https://github.com/gtbu/Typesetter-5.3-p8/blob/main/include/thirdparty/ckeditor/config.js">config.js</a> : config.skin =
 
-*For Typesetter exists also a <a href=https://github.com/gtbu/CKE_Themes > skinswitcher-plugin </a> for installation under /addons. The master from 3/2025 has an inbulit Skin-switch.
+*For Typesetter exists also a <a href=https://github.com/gtbu/CKE_Themes > skinswitcher-plugin </a> for installation under /addons. 
+
+The master 3/2025 has an inbuilt skin-switch (settings -> ckeditor ->Skin).
 
 *** Many users will since 2025 get a popup that version 4.21 is not quite safe and should be replaced with version 4.24 LTS .
 The LTS - version needs a commercial license !
