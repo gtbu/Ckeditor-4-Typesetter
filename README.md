@@ -11,17 +11,14 @@
 Ckeditor.com offers several skins for ckeditor. <hr>
 2/2025 : Ckeditor4 has now several skins for choice : The skin can be changed with an entry in the <a href="https://github.com/gtbu/Typesetter-5.3-p8/blob/main/include/thirdparty/ckeditor/config.js">config.js</a> : config.skin =
 
-For Typesetter exists also a <a href=https://github.com/gtbu/CKE_Themes >
-skinswitcher-plugin </a> for installation under /addons.
+*For Typesetter exists also a <a href=https://github.com/gtbu/CKE_Themes > skinswitcher-plugin </a> for installation under /addons. The master from 3/2025 has an inbulit Skin-switch.
 
-* Further plugins for manual installation in the CMS are at github (sestolab and akilli and others) and at pluginza.com (always watch dependencies! - some are old and incompatiuble)
-
-*** Many users will now get a popup that version 4.21 is not quite safe and should be replaced with version 4.24 LTS .
+*** Many users will since 2025 get a popup that version 4.21 is not quite safe and should be replaced with version 4.24 LTS .
 The LTS - version needs a commercial license !
 *** A momentary tip from  https://github.com/ckeditor/ckeditor4/issues/5519  :  Add in include/tool/Editing.php at line 640  :  'versionCheck'   => false,
 *** At this line You can also enter Your license key  :    licenseKey: 'your-license-key', 
 
-----------------------------------------------------------------------------------------------------
+<hr size=1>
 Ckeditor has a problem with bootstrap5-icons : < i... > < /i > which are removed automatic.
 
 To configure CKEditor to allow the <i> tag with the bi bi-heart class, you can use the Advanced Content Filter (ACF) settings. 
@@ -39,7 +36,14 @@ Here are the steps: (Add in include/tool/Editing.php ~ at line 640 : )
 
 By following these steps, you should be able to configure CKEditor to allow the <i> tag .
 
-P.S.                 'versionCheck'              => false,
-							'allowedContent'            => true,
-							'extraAllowedContent'		=> 'i[*],iframe[align,......
-       
+<pre>                 'versionCheck'              => false,
+					  'allowedContent'            => true,
+					  'extraAllowedContent'		  => 'i[*],iframe[align,......
+</pre>    
+<hr size=1>
+
+PLUGINS :
+
+* Further plugins for manual installation in the CMS (under settings -> ckeditor) are at github (sestolab and akilli and others) and at pluginza.com (always watch dependencies! - some are old and incompatible with ckeditor 4.22)
+
+* Manually added Plugins are installed under data/ckeditor. They are registered in data/ckeditor/config.php. 
