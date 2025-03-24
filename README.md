@@ -1,4 +1,4 @@
-# Ckeditor-4-Typesetter
+## Ckeditor-4-Typesetter
 
 * The zip's are a replacement of the directory include/thirdparty/ckeditor.
 
