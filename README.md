@@ -15,8 +15,10 @@ Ckeditor.com offers several skins for ckeditor. <hr>
 
 The master 3/2025 has an inbuilt skin-switch (settings -> ckeditor ->Skin).
 
-*** Many users will since 2025 get a popup that version 4.21 is not quite safe and should be replaced with version 4.24 LTS .
-The LTS - version needs a commercial license !
+*** Many users will since 2025 get a popup that <a href=https://github.com/gtbu/ckeditor4-releases-25>version 4.22.1</a> is not quite safe and should be replaced with version 4.24 LTS .
+
+The LTS - version 4.23+ needs a commercial license !
+
 *** A momentary tip from  https://github.com/ckeditor/ckeditor4/issues/5519  :  Add in include/tool/Editing.php at line 640  :  'versionCheck'   => false,
 *** At this line You can also enter Your license key  :    licenseKey: 'your-license-key', 
 
